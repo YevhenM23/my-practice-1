@@ -1,0 +1,153 @@
+body {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #262e2b;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2.6vmax 0;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.logo {
+  width: 209px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 60px;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.menu-link:hover {
+  color: gold;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+  border-radius: 6px;
+  color: #262e2b;
+  padding: 10px 20px;
+  transition: background-color 0.4s;
+}
+
+.btn:hover {
+  background-color: gold;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(./images/hero_background.jpg);
+  background-size: cover;
+  padding-top: calc(100px + 2.5vmax);
+}
+
+.hero-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.hero-content {
+  flex-grow: 1;
+  flex-basis: 40%;
+  max-width: 630px;
+  padding: calc(100px + 5vh) 0;
+}
+
+.hero-title {
+  font-weight: 400;
+  /* font-size: 64px; */
+  /* font-size: calc(24px + (64 - 24) * ((100vh - 320px) / (1920 - 320))); */
+  font-size: calc(2.5vw + 16px);
+  line-height: 130%;
+  text-shadow: 0 0 60px 0 #262e2b;
+  margin-bottom: 15px;
+}
+
+.hero-text {
+  text-shadow: 0 0 20px 0 #262e2b;
+  margin-bottom: 25px;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/mountain.jpg);
+  border: 25px solid rgba(255, 255, 255, 0.2);
+  width: 385px;
+  height: 51.25vmin;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position: bottom center;
+}
+
+.social-list {
+  display: flex;
+  gap: 20px;
+}
+
+.social-item {
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+.social-link:hover {
+  opacity: 1;
+}
+
+.instagram {
+  background-image: url(./images/icon-inst.svg);
+}
+
+.youtube {
+  background-image: url(./images/icon-yt.svg);
+}
+
+.facebook {
+  background-image: url(./images/icon-fb.svg);
+}
